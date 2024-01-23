@@ -1,0 +1,180 @@
+/* Home Section */
+
+#home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#home > div {
+    width: 40%;
+}
+
+#home > div > h1 {
+    font-size: 60px;
+    margin-bottom: 3vh;
+    font-weight: 900;
+}
+#home > div > h1 > span {
+    color: #2B7BFF;
+}
+#home > div > p {
+    font-size: 20px;
+}
+#home > div > span {
+    font-size: 20px;
+    color: gray;
+    margin: 50px 0px;
+}
+
+#home > img {
+    width: 400px;
+    border-radius: 30px;
+}
+.home-btns {
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px -3px rgba(0,0,0,0.54);
+    padding: 10px 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.home-btns > img {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Numbers Section */
+
+#Numbers {
+    width: 80%;
+    padding: 10vh 10%;
+    background-color: rgb(27, 23, 23);
+    color: white;
+}
+#Numbers > h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+.numbers-div {
+    padding: 2vh auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.numbers-div > .card {
+    text-align: center;
+}
+.numbers-div > .card > h4 {
+    font-size: 25px;
+    margin: 0;
+}
+.numbers-div > .card > p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.numbers-div > .card > img {
+    width: 150px;
+}
+
+/* Why BharatPe */
+#whybharatpe {
+    text-align: center;
+    padding: 2vh 5%;
+}
+#whybharatpe > h2 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+#whybharatpe > p {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.whybharatpe-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.whybharatpe-div > img {
+    width: 500px;
+    border-radius: 30px;
+}
+.whybharatpe-div > div {
+    width: 40%;
+    text-align: left;
+    font-size: 20px;
+}
+.whybharatpe-div > div > h4 {
+    font-size: 40px;
+}
+
+/* MerchantOfferings */
+#MerchantOfferings {
+    padding: 5vh 5%;
+    background-color: #f4f9ff;
+    display: grid;
+    place-items: center;
+    line-height: 2;
+}
+#MerchantOfferings > h2 {
+    font-size: 40px;
+    margin: 0;
+}
+.merchant-button-area {
+    background-color: white;
+    margin: 3vh 0;
+    display: flex;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 2px 1px 2px 2px rgba(0,0,0,0.1);
+}
+.merchant-button-area > button {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: 0;
+    padding: 2vh 20px;
+    border-radius: 20px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.merchant-button-area > .active {
+    background-color: #2B7BFF;
+    color: white;
+}
+#Merchant-mainBody {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+.Merchant-card {
+    width: 40%;
+    padding: 3vh 2%;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+.Merchant-card > h4 {
+    font-size: 30px;
+    margin: 2vh auto;
+}
+.Merchant-card > a {
+    color: #2B7BFF;
+    transition: all 0.2s;
+}
+.Merchant-card > a:hover {
+    text-decoration: underline;
+}
