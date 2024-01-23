@@ -1,0 +1,114 @@
+<%- include("./navbar.ejs") %>
+<!-- <div class="navbar-spacer"></div>   -->
+<main id="home">
+  	<div>
+    	<h1> Grow your business with
+            <span>BharatPe</span>
+        </h1>
+        <p>
+        One-stop fintech destination trusted by 13+ million merchants in India to
+        power their business growth
+        </p>
+        <span><b>Dowload app</b></span>
+        <div style="display: flex; gap: 50px; margin-top: 20px">
+            <a href="https://play.google.com/store/apps/details?id=com.bharatpe.app&gl=IN&pli=1" >
+            <button class="home-btns">
+                <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/play-store-icon.jpg"
+                    alt="" />
+                Play Store
+            </button>
+            </a>
+            <a href="https://apps.apple.com/us/app/bharatpe/id1329385873">
+                <button class="home-btns">
+                    <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/app-store.jpg"
+                        alt=""
+                    />
+                    App Store
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/home-desktop-banner.jpg" alt="" />
+</main>
+
+<section id="Numbers">
+    <h2>Numbers tell Our Story</h2>
+    <div class="numbers-div">
+        <div class="card">
+            <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/payment.png" alt="" />
+            <h4>Rs.1700+ Billion</h4>
+            <p>TPV in Payments</p>
+        </div>
+        <div class="card">
+            <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/merchants.png" alt="" />
+            <h4>13+ Million</h4>
+            <p>Merchant Partners</p>
+        </div>
+        <div class="card">
+            <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/location-add.png" alt="" />
+            <h4>450+ Cities</h4>
+            <p>Presence across India</p>
+        </div>
+        <div class="card">
+            <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/cr-mechant.png" alt="" />
+            <h4>Rs.12400+ Crores</h4>
+            <p>Business Loan Facilitated</p>
+        </div>
+    </div>
+</section>
+
+<section id="whybharatpe">
+    <h2>Why BharatPe</h2>
+    <p>We unlock the true potential of your business</p>
+    <div class="whybharatpe-div">
+        <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/why-bharat-pe-image.jpg" alt="" />
+        <div>
+            <h4>The perfect match for your credit needs</h4>
+            <p>
+                From making sure you are always stocked to opening another outlet around
+                the block, we help your business scale greater heights through our range
+                of business loans
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="MerchantOfferings">
+    <h2 style="text-align: center">Merchant Offerings</h2>
+    <div class="merchant-button-area">
+        <button class="active" onclick="Merchant_change(0)">Payments</button>
+        <button class="" onclick="Merchant_change(1)">Banking</button>
+        <button class="" onclick="Merchant_change(2)">Lending</button>
+    </div>
+    <div id="Merchant-mainBody">
+        <div class="Merchant-card">
+            <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/bharatPeswipe.jpg" alt="" />
+            <h4>BharatPe QR</h4>
+            <p>
+                Accept payments anytime, anywhere from multiple payment apps for free
+            </p>
+            <a href="https://bharatpe.com/bharatpe-qr/">Know More</a> >
+        </div>
+        <div class="Merchant-card">
+            <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/bharatPe-speaker.jpg" alt="" />
+            <h4>BharatPe Swipe</h4>
+            <p>Accept fast payments from multiple debit and credit cards</p>
+            <a href="https://bharatpe.com/bharatswipe/">Know More</a> >
+        </div>
+        <!-- <div class="Merchant-card">
+            <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/BharatPe-Investment.jpg" alt="" />
+            <h4>Investment Platform</h4>
+            <p>Invest with RBI-approved partners & earn more</p>
+            <a href="https://bharatpe.com/products/">Know More ></a>
+        </div> -->
+        <!-- <div class="Merchant-card">
+            <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/Easy-Loans-1.jpg" alt="" />
+            <h4>BharatPe Easy Loans</h4>
+            <p>Collateral-free loans to fast forward your business growth</p>
+            <a href="https://bharatpemoney.com/">Know More ></a>
+        </div> -->
+    </div>
+</section>
+
+<%- include("./footer.ejs") %>
