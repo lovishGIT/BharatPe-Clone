@@ -12,7 +12,7 @@ footer {
 .footer-links{
     color: white;
     display: flex;
-    gap: 30%;
+    gap: 20%;
 }
 .footer-links > div {
     display: flex;
