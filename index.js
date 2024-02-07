@@ -14,6 +14,10 @@ app.get("/", (req, res)=> {
     res.render(__dirname + "/views/index.ejs")
 });
 
+app.get("/about", (req,res)=> {
+    res.render(__dirname + "/views/about.ejs")
+})
+
 app.listen(port, (req, res)=> {
     console.log(`Server Listenning to PORT:${port}`);
 });
